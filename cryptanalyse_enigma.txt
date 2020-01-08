@@ -1,0 +1,19 @@
+Cryptanalyse de la machine Enigma, Cyril Rocher et Ambroise Fleury
+
+Résumé :
+Ce rapport traite d'Enigma et de la cryptanalyse. Enigma est une machine de chiffrement utilisé lors de la seconde guerre mondiale par le régime NAzi.
+C'est une machine qui permet de chiffrer une lettre grâce à l'association d'un ensemble de touche, rotors et ampoule.
+Le rapport se découpe en deux parties principales, la description "physique" de la machine et de son mécanisme. Puis une partie plus abstraite concernant la cryptanalyse qui lui est associé.
+
+
+Remarques :
+- La mise en contexte historique du début est apprécié.
+- De même que la partie concernant le mécanisme, il est plus facile par la suite de visualiser le contenu de la machine.
+- Difficile de visualiser la partie chiffre (1.4) même si on comprends que c'est beaucoup.
+- La manière dont est décrite les failles, puis comment elle sont utilisés est intéressante.
+- Le plan est détaillé et cohérent.
+
+Avis personnel :
+Il aurait été intéressant de traiter plus en profondeur la partie historique entourant enigma, comme il a était fait dans l'avant dernière partie.
+Comme par exemple parler plus en détail de sa création et des enjeux de la cryptanalayse d'Enigma qui est à peine traité dans la conclusion.
+De manière générale le rapport est bon et agréable à lire. Les informations s'enchaînent correctement ce qui permet une bonne compréhension du rapport.

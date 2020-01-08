@@ -1,0 +1,17 @@
+Les Bases de données, Lepretre, Dieu, Moreau
+
+Résumé :
+Ce rapport traite des bases de données de leur création à l'utilisation du SQL. SQL est un langage de programmation s'appliquant aux bases de données.
+Il est le langage de référence aujourd'hui concernant les base de données relationnelles.
+
+Remarques :
+- Il y a un problème de mise en page de l'index.
+- Il y a beaucoup de retour à la ligne, qui rendent parfois la lecture difficile
+- Il manque certains points importants selon moi :
+  * Plus d'éléments concernant l'avant SQL
+  * Pourquoi le modèle relationnel a réellement supplanter les autres ?
+  * Il est décrit pourquoi on utilise SQL de nos jours, mais pourquoi s'est-il imposer à l'époque ?
+- Certaines explications (dont les exemples) sont un peu flou, profitez de la faciliter de représenter une table pour les illustrer.
+
+Dans l'ensemble le rapport est bon, même si la partie SQL semble écraser tout le reste. Il serait aussi pertinant de mieux traiter les points positifs/négatifs de chaque modèle.
+Cela permettrait de dégager la standardisation du SQL plus simplement.

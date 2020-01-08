@@ -1,0 +1,43 @@
+setBatchMode(true); //images are hidden during macro execution
+
+idImg = getImageID();
+
+W = getWidth();
+H = getHeight();
+
+//Traçage d'une image toute noir qui sera l'image d'entrée filtré
+newImage("filtre", "8-bit", W,H, 1);
+idFiltre = getImageID();
+setColor(255);
+makeRectangle(0,0,W,H);
+fill();
+
+tailleFiltre = 3;
+selectImage(idImg);
+
+for(i = 1; i < W-1; i++){
+	for(j = 1; j < H - 1; j++){
+		pix = getPixel(i,j);
+		min = 255;
+		max = 0;
+		
+		for(x = 0; x < tailleFiltre; x++){
+			for(y = 0; y < tailleFiltre; y ++){
+				if((x != 1) && (y != 1)){
+					courrant = getPixel(x-1+i, y-1+j);
+					if(courrant > max) max = courrant;
+					if(courrant < min) min = courrant;
+				}
+			}
+		}
+
+		if(pix > max) pix = max;
+		if(pix < min) pix = min;
+		selectImage(idFiltre);
+		setPixel(i,j, pix);
+		selectImage(idImg);
+	}
+}
+
+
+setBatchMode("exit and display"); //show images
